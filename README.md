@@ -4,4 +4,4 @@ A simple and accurate **Sales Tax Calculator** designed specifically for **Jorda
 This tool helps users calculate **sales tax (GST/VAT)** and see the final price instantly.
 
 🌍 **Live Demo:**  
-https://ca-almajdoba.github.io/sales-tax-calculator/
+(https://cfo-solutions-jordan.github.io/sales-tax-calculator/)
