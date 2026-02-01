@@ -5,12 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Professional Tax Calculator</title>
 
-  <!-- ✅ FORCE NO CACHE (helps clients get latest) -->
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
   <meta http-equiv="Pragma" content="no-cache">
   <meta http-equiv="Expires" content="0">
 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&display=swap" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.28/jspdf.plugin.autotable.min.js"></script>
 
@@ -41,7 +40,7 @@
 
     *{ margin:0; padding:0; box-sizing:border-box; }
     body{
-      font-family:'Montserrat', sans-serif;
+      font-family: 'Outfit', sans-serif; /* ✅ Font changed to Outfit */
       background: linear-gradient(180deg, #ffffff 0%, var(--bg) 100%);
       color: var(--text);
       line-height: 1.6;
@@ -161,6 +160,8 @@
       transition: .25s;
       box-shadow: none;
       white-space:nowrap;
+      text-decoration: none; /* added for anchor buttons */
+      display: inline-block;
     }
     .btn:hover{
       border-color: var(--blue2);
@@ -318,6 +319,7 @@
       font-size: 13px;
       text-align: left;
       transition: .2s;
+      font-family: inherit;
     }
     .input-group input:focus{
       border-color: rgba(0,115,187,.65);
@@ -352,6 +354,7 @@
       outline:none;
       font-weight: 900;
       text-align: left;
+      font-family: inherit;
     }
     .balance-row input:focus{
       box-shadow: 0 0 0 4px var(--focus);
@@ -411,6 +414,7 @@
       text-align: right;
       background:#fff;
       border:1px solid var(--line2);
+      font-family: inherit;
     }
 
     /* Action buttons row */
@@ -535,7 +539,6 @@
 
 <body>
 
-  <!-- NAVBAR -->
   <nav class="navbar">
     <div class="brand">
       <div class="mark" aria-hidden="true"></div>
@@ -550,11 +553,10 @@
         <div class="dt" id="appDateTime">—</div>
         <div class="ver" id="appVersion">—</div>
       </div>
-      <a class="btn" href="https://www.cfosolutions.me" target="_blank" rel="noopener">VISIT SITE</a>
+      <a class="btn" href="https://github.com/ca-almajdoba" target="_blank" rel="noopener">VISIT GITHUB</a>
     </div>
   </nav>
 
-  <!-- HERO -->
   <section class="hero">
     <div class="wrap">
       <h1>Tax Reporting <span>Made Clear.</span></h1>
@@ -562,7 +564,7 @@
         Enterprise-style tax return calculator for Jordan Sales Tax. Enter values, calculate totals, and export a polished PDF report.
       </p>
       <div class="devLine">
-        <div class="devBadge">DEVELOPED BY: <b>CFO SOLUTIONS EST.</b></div>
+        <div class="devBadge">DEVELOPED BY: <b>Ahmad Majdoba</b></div>
         <button class="btn btn-primary" onclick="calculateTax()">CALCULATE</button>
         <button class="btn" onclick="exportPDF()">EXPORT PDF</button>
       </div>
@@ -676,7 +678,7 @@
   </section>
 
   <footer class="bottom-line">
-    © <span id="footerYear"></span> <b>CFO SOLUTIONS EST.</b> • ALL RIGHTS RESERVED.
+    © <span id="footerYear"></span> <b>Ahmad Majdoba</b> • ALL RIGHTS RESERVED.
   </footer>
 
   <script>
@@ -930,4 +932,3 @@
 
 </body>
 </html>
-
