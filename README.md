@@ -61,7 +61,13 @@ If you find this project useful:
 For business inquiries, support, or collaboration:  
 
 - **📧 Email:** info@majdoba.me  
-- **📱 Phone & WhatsApp:** +962 790 185 291  
-- 📂 GitHub Projects: [View All Projects](https://github.com/ca-almajdoba)
-
+- **📱 Phone & WhatsApp:** +962 790 185 291
+  
 ---
+
+## 📂 Our Projects & Repositories
+
+Explore all our projects, software tools, and public repositories on GitHub:
+- 📂 GitHub Projects:
+  
+🔗 [View All Projects & Repositories](https://github.com/ca-almajdoba?tab=repositories)
